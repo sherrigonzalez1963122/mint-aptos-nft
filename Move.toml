@@ -1,0 +1,14 @@
+[package]
+name = "PepeNft"
+version = "0.0.0"
+
+[addresses]
+admin = "0x71556a31519bde759ea16c8f8711ce7bd314ca6e27ee313af8d3a42ae87e3a44"
+# for tests only
+source = "0x0a6f65c5389cb25206b0778b0411728663f1533da8a51f36d5b14db16b18dbc4"
+pepe_minter = "0xb00b2aef1ffae7256e4fdc345903a6102e7107d9b1ed96a451ad6c110347ce78"
+
+[dependencies]
+AptosFramework = { local = "/home/titouanmarchal/ThounyBreasty/Playground/Aptos/aptos-core/aptos-move/framework/aptos-framework" }
+AptosToken = { local = "/home/titouanmarchal/ThounyBreasty/Playground/Aptos/aptos-core/aptos-move/framework/aptos-token" }
+# AptosFramework = {git = 'https://github.com/aptos-labs/aptos-core.git', rev = 'devnet', subdir = 'aptos-move/framework/aptos-framework'}
